@@ -1,0 +1,14 @@
+<header>
+    <div class="navbar navbar-dark bg-dark">
+      <div class="navbar-brand align-item-center d-flex">
+        <img style="cursor: pointer;" routerLink="/beers" src="https://image.flaticon.com/icons/png/512/517/517625.png" alt="" class="brandlogo">&nbsp;&nbsp;
+        <strong style="cursor: pointer;" routerLink="/beers" class="brandname">Brewery</strong>
+      </div>
+      <button routerLink="bucket" class="btn btn-dark bucketicon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-bucket-fill" viewBox="0 0 16 16">
+            <path d="M2.522 5H2a.5.5 0 0 0-.494.574l1.372 9.149A1.5 1.5 0 0 0 4.36 16h7.278a1.5 1.5 0 0 0 1.483-1.277l1.373-9.149A.5.5 0 0 0 14 5h-.522A5.5 5.5 0 0 0 2.522 5zm1.005 0a4.5 4.5 0 0 1 8.945 0H3.527z"/>
+          </svg>
+          <div style="top: 15px;" class="badge bg-light text-dark">{{bucketService.totalBeers}}</div>
+      </button>
+    </div>
+  </header>

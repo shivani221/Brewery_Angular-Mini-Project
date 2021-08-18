@@ -1,0 +1,25 @@
+<br />
+<div class="container">
+    <div class="form-group">
+        <input type="text" name="searchbar" [(ngModel)]="searchbeer" (input)=searchbeerbyname() class="form-control"
+            placeholder="Search for beers...">
+    </div>
+    <span class="fas fa-search search-icon"></span>
+    <br /><br />
+    <div class="row">
+        <ng-container *ngFor="let item of beerList">
+            <div class="col-md-3">
+                <div style="text-align: center;" class="card">
+                    <img src="{{item.image_url}}" alt="" class="">
+                    <h3 class="dotdotdot"><strong>{{item.name}}</strong></h3>
+                    <p class="dotdotdot"><i>{{item.tagline}}</i></p>
+                    <p><strong>Price: </strong>${{item.abv}}</p>
+                    <div style=" align-items: center;">
+                        <button style="width: 130px;" class="btn btn-dark" (click)=addtobucket(item)>Add to bucket</button>
+                    </div>
+                </div>
+                <br /><br />
+            </div>
+        </ng-container>
+    </div>
+</div>

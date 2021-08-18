@@ -1,0 +1,6 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    background-image: url("https://images.pexels.com/photos/172292/pexels-photo-172292.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

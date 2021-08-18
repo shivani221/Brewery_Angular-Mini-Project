@@ -1,0 +1,88 @@
+.card{
+    margin-top: 25px;
+    margin-left: 19%;
+    padding: 25px;
+    width: 700px;
+}
+
+.buttons-card{
+    height: 8vh;
+    margin-top: 20px;
+    margin-left: 888px;
+    background-color: floralwhite;
+    width: 203px;
+    border: 1px solid darkslategray;
+    border-radius: 3px;
+}
+
+.grandtotalcard{
+    text-align: center;
+    height: 15vh;
+    margin-top: 20px;
+    margin-left: 888px;
+    background-color: floralwhite;
+    width: 203px;
+    border: 1px solid darkslategray;
+    border-radius: 3px;
+}
+
+.buckettopbuttons{
+    margin-left: 5px; 
+    margin-top: 7px;
+}
+
+.card-table{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: none;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border: 1px solid darkslategray;
+    border-radius: 3px;
+    margin: 25px;
+    background-color: floralwhite;
+}
+
+td, th{
+    text-align: center;
+}
+
+.animated{
+    width: 70px;
+    align-items: center;
+}
+
+.swing {
+    animation: swing ease-in-out 1s infinite alternate;
+    transform-origin: center -20px;
+    float:left;
+}
+.swing img {
+    border: 5px solid #f8f8f8;
+    display: block;
+}
+ 
+@keyframes swing {
+    0% { transform: rotate(8deg); }
+    100% { transform: rotate(-8deg); }
+}
+
+.center{
+    font-size: 14px !important;
+    margin-top: 20px !important;
+    padding: 12px 72px;
+    border-radius: 3px !important;
+}
+
+.card-title{
+    text-align: center;
+}
+
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}

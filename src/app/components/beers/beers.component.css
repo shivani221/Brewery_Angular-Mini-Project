@@ -1,0 +1,62 @@
+.card-top {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background: #fff;
+    background-clip: border-box;
+    border-bottom: 2px solid darkslategray;
+    border-radius: .25rem;
+}
+
+.item img {
+    width: 64px;
+    height: 80px;
+}
+
+.item {
+    margin: 0px 15px;
+    text-align: center;
+}
+
+.item a:hover {
+    color: blue;
+}
+
+.dotdotdot{
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    max-width: 100ch;
+}
+
+.card img{
+    width: 80px;
+    height: 200px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    margin-left: 33%;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.card{
+    padding: 15px 15px 15px 15px;
+}
+
+.form-control{
+    width: 300px;
+    margin-left: 820px;
+    margin-top: 4px;
+}
+
+.search-icon{
+    position: absolute;
+    z-index: 10;
+    right: 9%;
+    top: 105px;
+    color: darkslategrey;
+}
